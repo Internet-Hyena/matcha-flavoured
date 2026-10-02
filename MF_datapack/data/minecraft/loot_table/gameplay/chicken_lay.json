@@ -1,0 +1,42 @@
+{
+	"type": "minecraft:gift",
+	"pools": [
+		{
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:loot_table",
+							"value": "matcha:gameplay/chicken_lay/seagull",
+							"condition": {
+								"type": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"minecraft:components": {
+										"minecraft:chicken/variant": "matcha:seagull"
+									}
+								}
+							}
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "matcha:gameplay/chicken_lay/bobwhite",
+							"condition": {
+								"type": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"minecraft:components": {
+										"minecraft:chicken/variant": "matcha:bobwhite"
+									}
+								}
+							}
+						}
+					]
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "minecraft:gameplay/chicken_lay"
+}

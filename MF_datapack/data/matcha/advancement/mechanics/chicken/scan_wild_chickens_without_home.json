@@ -1,0 +1,19 @@
+{
+	"parent": "matcha:imm_revoke",
+	"criteria": {
+		"player_location": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type": "minecraft:location_check",
+					"predicate": {
+						"dimension": "minecraft:overworld"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "matcha:environmental/chicken/find_roost/check_home"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 34222645,
+		"separation": 6,
+		"spacing": 20
+	},
+	"structures": [
+		{
+			"structure": "matcha:seagull_roost",
+			"weight": 1
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"asset_id": "matcha:entity/chicken/seagull",
+	"baby_asset_id": "matcha:entity/chicken/seagull_baby",
+	"model": "normal",
+	"spawn_conditions": [
+		{
+			"condition": {
+				"type": "minecraft:biome",
+				"biomes": "minecraft:beach"
+			},
+			"priority": 2
+		}
+	]
+}
