@@ -162,3 +162,6 @@ scoreboard players set #1000 update_item 1000
 
 # Used to detect when player joins the server
 scoreboard objectives add leave_game minecraft.custom:minecraft.leave_game
+
+# Cooldown for pigs dropping mushrooms
+scoreboard objectives add pig_gift_cooldown dummy

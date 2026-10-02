@@ -1,0 +1,1 @@
+execute as @e[type=pig] at @s run function matcha:mechanics/mob_behaviours/pig/pig_gift
