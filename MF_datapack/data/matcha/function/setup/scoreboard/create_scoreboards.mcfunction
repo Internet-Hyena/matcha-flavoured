@@ -155,3 +155,6 @@ scoreboard objectives add intrinsic_enchants_levels dummy
 # Add Trigger Scoreboard to update your old items
 scoreboard objectives add update_item trigger
 scoreboard players set #1000 update_item 1000
+
+# Cooldown for pigs dropping mushrooms
+scoreboard objectives add pig_gift_cooldown dummy
