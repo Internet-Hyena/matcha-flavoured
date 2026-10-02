@@ -164,4 +164,4 @@ scoreboard players set #1000 update_item 1000
 scoreboard objectives add leave_game minecraft.custom:minecraft.leave_game
 
 # Cooldown for pigs dropping mushrooms
-scoreboard objectives add pig_gift_cooldown dummy
+scoreboard objectives add matcha.pig_gifting_cooldown dummy
