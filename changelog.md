@@ -13,7 +13,7 @@ I'll try and keep this brief, if you want an in-depth look at this stuff, check 
     - Pigs can now eat almost everything, just like real life!
 
 
-#### Credits
+### Credits
 - Internet-Hyena: Established the new pig and chicken stuff! Amazing
 - Hashiru: Optimisations
 - NamlessJU: Various coding things, translations
@@ -24,9 +24,9 @@ I'll try and keep this brief, if you want an in-depth look at this stuff, check 
 - Bingbongbooper: Food Ideas (Their YT!: https://www.youtube.com/@bingbongbooper)
 - HapppySpud: Nether World Gen Gravel Remover, Post-Smithing Enchants, Random Asylum Seekers, and much more
 - Linkershim: Optimisations, Multiplayer Support and MANY other coding things
-- Pepurion: Optimisations, Rose Models
+- Pepurion: Optimisations, Rose Models, and many coding things
 - Fayranchia: Bug fixes
-- ReinIsNOTaDev: Optimisations, and Github Workflow nonsese
+- ReinIsNOTaDev: Optimisations, and Github Workflow nonsese, Item Update system and more
 - Fpekal: Bug fixes, optimisations, and a TON on the 26.3 port
 - FloofShade: Item update trigger
 - EastMonster: Bug fixes
@@ -34,6 +34,10 @@ I'll try and keep this brief, if you want an in-depth look at this stuff, check 
 - milo256: Dyanmic Multiplayer Sleep
 - All of the translation volunteers
 - Thank you so much everyone!
+#### Assets
+- ToastNeko: Copper Knife, XXX
+- TheGenderGoblin: 3D Fish models
+- LambS0up: Withered Heart (Heatbreaker) Asset
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
