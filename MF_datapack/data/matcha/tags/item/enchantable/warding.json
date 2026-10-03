@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:axes",
+    "#minecraft:swords",
+    "minecraft:shield",
+    "minecraft:poisonous_potato"
+  ]
+}

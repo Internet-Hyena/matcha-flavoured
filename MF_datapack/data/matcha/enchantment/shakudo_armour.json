@@ -1,17 +1,14 @@
 {
-	"exclusive_set": "#matcha:exclusive_set/intrinsic_armor",
-	"primary_items": [
-		"minecraft:copper_helmet",
-		"minecraft:copper_chestplate",
-		"minecraft:copper_leggings",
-		"minecraft:copper_boots",
-		"minecraft:elytra"
-	],
-	"anvil_cost": 0,
+	"max_level": 1,
 	"description": {
 		"translate": "enchantment.kleispack.shakudo_armour",
 		"color": "#e85e8f"
 	},
+	"supported_items": "#matcha:enchantable/shakudo_armour",
+	"exclusive_set": "#matcha:exclusive_set/intrinsic_armor",
+	"slots": [
+		"armor"
+	],
 	"effects": {
 		"minecraft:tick": [
 			{
@@ -24,7 +21,7 @@
 				},
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "matcha:enchantment_effects/shakudo_armour"
+					"function": "matcha:enchantment_effects/shakudo_effects/regeneration/add_1_power"
 				}
 			}
 		]
@@ -33,21 +30,10 @@
 		"base": 1,
 		"per_level_above_first": 0
 	},
-	"max_level": 1,
 	"min_cost": {
 		"base": 1,
 		"per_level_above_first": 0
 	},
-	"slots": [
-		"mainhand",
-		"armor"
-	],
-	"supported_items": [
-		"minecraft:copper_helmet",
-		"minecraft:copper_chestplate",
-		"minecraft:copper_leggings",
-		"minecraft:copper_boots",
-		"minecraft:elytra"
-	],
+	"anvil_cost": 0,
 	"weight": 1
 }

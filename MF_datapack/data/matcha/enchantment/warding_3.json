@@ -1,21 +1,28 @@
 {
-	"exclusive_set": "#matcha:exclusive_set/intrinsic_weapon",
-	"anvil_cost": 0,
+	"max_level": 1,
 	"description": {
 		"translate": "enchantment.kleispack.warding_3",
 		"color": "yellow"
 	},
+	"supported_items": "#matcha:enchantable/warding",
+	"exclusive_set": "#matcha:exclusive_set/intrinsic_weapon",
+	"slots": [
+		"mainhand",
+		"offhand"
+	],
 	"effects": {
 		"minecraft:tick": [
 			{
 				"requirements": {
 					"type": "minecraft:entity_properties",
 					"entity": "this",
-					"predicate": {}
+					"predicate": {
+						"minecraft:entity_type": "#matcha:can_use_warding"
+					}
 				},
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "matcha:enchantment_effects/warding/value/equipment_3"
+					"function": "matcha:enchantment_effects/warding/add_power/equipment_3"
 				}
 			}
 		]
@@ -24,28 +31,10 @@
 		"base": 15,
 		"per_level_above_first": 0
 	},
-	"max_level": 1,
 	"min_cost": {
 		"base": 1,
 		"per_level_above_first": 0
 	},
-	"slots": [
-		"mainhand",
-		"offhand"
-	],
-	"supported_items": [
-		"minecraft:wooden_sword",
-		"minecraft:stone_sword",
-		"minecraft:iron_sword",
-		"minecraft:diamond_sword",
-		"minecraft:netherite_sword",
-		"minecraft:popped_chorus_fruit",
-		"minecraft:shield",
-		"minecraft:wooden_axe",
-		"minecraft:stone_axe",
-		"minecraft:iron_axe",
-		"minecraft:diamond_axe",
-		"minecraft:netherite_axe"
-	],
+	"anvil_cost": 0,
 	"weight": 1
 }

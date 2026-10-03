@@ -1,15 +1,15 @@
 {
-	"anvil_cost": 8,
+	"max_level": 3,
 	"description": {
 		"translate": "enchantment.minecraft.soul_speed"
 	},
+	"supported_items": "#minecraft:enchantable/foot_armor",
+	"slots": [
+		"feet"
+	],
 	"effects": {
 		"minecraft:location_changed": [
 			{
-				"effect": {
-					"type": "minecraft:run_function",
-					"function": "matcha:enchantment_effects/traversal"
-				},
 				"requirements": {
 					"type": "minecraft:all_of",
 					"terms": [
@@ -95,13 +95,13 @@
 							]
 						}
 					]
+				},
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "matcha:enchantment_effects/traversal"
 				}
 			},
 			{
-				"effect": {
-					"type": "minecraft:change_item_damage",
-					"amount": 1
-				},
 				"requirements": {
 					"type": "minecraft:all_of",
 					"terms": [
@@ -127,36 +127,20 @@
 							}
 						}
 					]
+				},
+				"effect": {
+					"type": "minecraft:change_item_damage",
+					"amount": 1
 				}
 			}
 		],
 		"minecraft:tick": [
 			{
-				"effect": {
-					"type": "minecraft:spawn_particles",
-					"horizontal_position": {
-						"type": "in_bounding_box"
-					},
-					"horizontal_velocity": {
-						"movement_scale": -0.2
-					},
-					"particle": {
-						"type": "minecraft:block",
-						"block_state": "minecraft:dirt"
-					},
-					"speed": 1,
-					"vertical_position": {
-						"type": "entity_position",
-						"offset": 0.1
-					},
-					"vertical_velocity": {
-						"base": 0.1
-					}
-				},
 				"requirements": {
 					"type": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
+						"minecraft:periodic_tick": 5,
 						"minecraft:flags": {
 							"is_flying": false,
 							"is_on_ground": true
@@ -170,9 +154,29 @@
 							"block": {
 								"blocks": "#matcha:is_path"
 							}
-						},
-						"minecraft:periodic_tick": 5
+						}
 					}
+				},
+				"effect": {
+					"type": "minecraft:spawn_particles",
+					"particle": {
+						"type": "minecraft:block",
+						"block_state": "minecraft:dirt"
+					},
+					"horizontal_position": {
+						"type": "in_bounding_box"
+					},
+					"vertical_position": {
+						"type": "entity_position",
+						"offset": 0.1
+					},
+					"horizontal_velocity": {
+						"movement_scale": -0.2
+					},
+					"vertical_velocity": {
+						"base": 0.1
+					},
+					"speed": 1
 				}
 			}
 		]
@@ -181,14 +185,10 @@
 		"base": 25,
 		"per_level_above_first": 10
 	},
-	"max_level": 3,
 	"min_cost": {
 		"base": 10,
 		"per_level_above_first": 10
 	},
-	"slots": [
-		"feet"
-	],
-	"supported_items": "#minecraft:enchantable/foot_armor",
+	"anvil_cost": 8,
 	"weight": 1
 }

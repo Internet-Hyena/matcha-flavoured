@@ -1,13 +1,14 @@
 {
-	"exclusive_set": "#matcha:exclusive_set/intrinsic_armor",
-	"primary_items": [
-		"minecraft:elytra"
-	],
-	"anvil_cost": 0,
+	"max_level": 1,
 	"description": {
 		"translate": "enchantment.kleispack.shakudo_elytra",
 		"color": "#e85e8f"
 	},
+	"supported_items": "minecraft:elytra",
+	"exclusive_set": "#matcha:exclusive_set/intrinsic_armor",
+	"slots": [
+		"armor"
+	],
 	"effects": {
 		"minecraft:tick": [
 			{
@@ -20,7 +21,7 @@
 				},
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "matcha:enchantment_effects/shakudo_elytra"
+					"function": "matcha:enchantment_effects/shakudo_effects/regeneration/add_5_power"
 				}
 			}
 		]
@@ -29,17 +30,10 @@
 		"base": 1,
 		"per_level_above_first": 0
 	},
-	"max_level": 1,
 	"min_cost": {
 		"base": 1,
 		"per_level_above_first": 0
 	},
-	"slots": [
-		"mainhand",
-		"armor"
-	],
-	"supported_items": [
-		"minecraft:elytra"
-	],
+	"anvil_cost": 0,
 	"weight": 1
 }

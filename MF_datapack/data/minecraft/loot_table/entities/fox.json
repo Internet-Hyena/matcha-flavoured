@@ -82,7 +82,7 @@
 					"modifier": {
 						"type": "minecraft:set_components",
 						"components": {
-							"minecraft:item_model": "fox_pelt",
+							"minecraft:item_model": "matcha:fox_pelt",
 							"minecraft:item_name": {
 								"translate": "item.kleispack.fox_pelt"
 							}
@@ -109,7 +109,7 @@
 					"modifier": {
 						"type": "minecraft:set_components",
 						"components": {
-							"minecraft:item_model": "fox_pelt_snowy",
+							"minecraft:item_model": "matcha:fox_pelt_snowy",
 							"minecraft:item_name": {
 								"translate": "item.kleispack.fox_pelt"
 							}
