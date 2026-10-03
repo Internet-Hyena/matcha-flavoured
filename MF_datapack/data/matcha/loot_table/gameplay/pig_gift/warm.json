@@ -7,6 +7,16 @@
                     "type": "minecraft:item",
                     "name": "minecraft:brown_mushroom",
                     "weight": 1
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "matcha:food/matcha/grilled_melon",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "matcha:food/matcha/grilled_tomatoes",
+                    "weight": 1
                 }
             ],
             "rolls": 1
