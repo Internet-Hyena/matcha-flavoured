@@ -91,7 +91,8 @@
                     "type": "minecraft:alternatives",
                     "children": [
                         {
-                            "type": "minecraft:item",
+                            "type": "minecraft:loot_table",
+                            "value": "matcha:gameplay/pig_gift/default",
                             "condition": {
                                 "type": "minecraft:entity_properties",
                                 "entity": "this",
@@ -100,11 +101,11 @@
                                         "minecraft:pig/variant": "minecraft:temperate"
                                     }
                                 }
-                            },
-                            "name": "minecraft:brown_mushroom"
+                            }
                         },
                         {
                             "type": "minecraft:loot_table",
+                            "value": "matcha:gameplay/pig_gift/default",
                             "condition": {
                                 "type": "minecraft:entity_properties",
                                 "entity": "this",
@@ -113,11 +114,11 @@
                                         "minecraft:pig/variant": "minecraft:warm"
                                     }
                                 }
-                            },
-                            "value": "matcha:food/matcha/braised_brown_mushroom"
+                            }
                         },
                         {
-                            "type": "minecraft:item",
+                            "type": "minecraft:loot_table",
+                            "value": "matcha:gameplay/pig_gift/default",
                             "condition": {
                                 "type": "minecraft:entity_properties",
                                 "entity": "this",
@@ -126,8 +127,7 @@
                                         "minecraft:pig/variant": "minecraft:cold"
                                     }
                                 }
-                            },
-                            "name": "minecraft:brown_mushroom"
+                            }
                         }
                     ]
                 }

@@ -1,0 +1,130 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"condition": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:entity_tags": {
+						"none_of": [
+							"matcha.chicken_gifting"
+						]
+					}
+				}
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"modifier": [
+						{
+							"type": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 2,
+								"min": 0
+							}
+						},
+						{
+							"type": "minecraft:enchanted_count_increase",
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 1,
+								"min": 0
+							},
+							"enchantment": "minecraft:looting"
+						}
+					],
+					"name": "minecraft:feather"
+				}
+			],
+			"rolls": 1
+		},
+		{
+			"condition": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:entity_tags": {
+						"none_of": [
+							"matcha.chicken_gifting"
+						]
+					}
+				}
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chicken",
+					"modifier": [
+						{
+							"type": "minecraft:furnace_smelt",
+							"condition": {
+								"type": "minecraft:any_of",
+								"terms": [
+									{
+										"type": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:flags": {
+												"is_on_fire": true
+											}
+										}
+									},
+									{
+										"type": "minecraft:entity_properties",
+										"entity": "direct_attacker",
+										"predicate": {
+											"minecraft:equipment": {
+												"mainhand": {
+													"predicates": {
+														"minecraft:enchantments": [
+															{
+																"enchantments": "#minecraft:smelts_loot"
+															}
+														]
+													}
+												}
+											}
+										}
+									}
+								]
+							}
+						},
+						{
+							"type": "minecraft:enchanted_count_increase",
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 1,
+								"min": 0
+							},
+							"enchantment": "minecraft:looting"
+						}
+					]
+				}
+			],
+			"rolls": 1
+		},
+		{
+			"condition": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:entity_tags": {
+						"any_of": [
+							"matcha.chicken_gifting"
+						]
+					}
+				}
+			},
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:gameplay/chicken_lay/totipotent"
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "minecraft:entities/chicken"
+}

@@ -65,7 +65,7 @@ scoreboard objectives add warding_equipment dummy
 scoreboard players set $Max warding_equipment 3
 
 
-# Traversal Enchant (Bool0s, I added the scoreboard so it should be good here!)
+# Traversal Enchant
 scoreboard objectives add traversal dummy
 scoreboard players set 0 traversal 0
 
@@ -165,3 +165,6 @@ scoreboard objectives add leave_game minecraft.custom:minecraft.leave_game
 
 # Cooldown for pigs dropping mushrooms
 scoreboard objectives add matcha.pig_gifting_cooldown dummy
+
+# Cooldown for chickens giving gifts
+scoreboard objectives add matcha.chicken_gifting_cooldown dummy

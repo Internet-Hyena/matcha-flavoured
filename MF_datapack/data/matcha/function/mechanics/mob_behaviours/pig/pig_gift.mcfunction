@@ -13,15 +13,18 @@ execute unless block ~ ~-1 ~ #matcha:pig_diggable run return fail
 
 # stop, look down, drop a brown mushroom, and play a sound
 
-# spawn this pig's death loot, changed via this tag
+# spawn this pig's Gift Loot, tags will be determined there (MUST use kill, because that allows us to check the current entities tags using /loot)
 tag @s add matcha.pig_gifting
 loot spawn ~ ~ ~ kill @s
 tag @s remove matcha.pig_gifting
 
 playsound minecraft:block.crop.break neutral @a
 setblock ~ ~-1 ~ minecraft:dirt
+particle block{block_state:"minecraft:dirt"} ~ ~ ~ .25 .1 .25 0.1 10 normal
+particle heart ~ ~1 ~ .3 .1 .3 0.1 1 normal
+playsound minecraft:entity.pig.ambient neutral @a
 effect give @s slowness 1 99 true
-rotate @s ~ 90
+rotate @s ~ 180
 
 # reset timer
 execute \
