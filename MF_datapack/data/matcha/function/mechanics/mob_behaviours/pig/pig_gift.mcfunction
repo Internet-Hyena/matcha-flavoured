@@ -14,12 +14,14 @@ execute unless block ~ ~-1 ~ #matcha:pig_diggable run return fail
 # stop, look down, drop a brown mushroom, and play a sound
 
 # spawn this pig's death loot, changed via this tag
-tag @s add matcha.pig_gifting
-loot spawn ~ ~ ~ kill @s
-tag @s remove matcha.pig_gifting
+execute if entity @s[type=pig,nbt={variant:"minecraft:cold"}] run loot spawn ~ ~ ~ loot matcha:gameplay/pig_gift_cold
+execute if entity @s[type=pig,nbt={variant:"minecraft:warm"}] run loot spawn ~ ~ ~ loot matcha:gameplay/pig_gift_warm
+execute if entity @s[type=pig,nbt={variant:"minecraft:temperate"}] run loot spawn ~ ~ ~ loot matcha:gameplay/pig_gift_temperate
 
 playsound minecraft:block.crop.break neutral @a
-setblock ~ ~-1 ~ minecraft:dirt
+
+# if this is a grass block convert it to dirt
+execute if block ~ ~-1 ~ #minecraft:grass_blocks run setblock ~ ~-1 ~ minecraft:dirt
 effect give @s slowness 1 99 true
 rotate @s ~ 90
 
