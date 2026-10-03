@@ -2,12 +2,15 @@
 
 ### Major Additions and Changes
 I'll try and keep this brief, if you want an in-depth look at this stuff, check the alpha changelogs
-- Ecologic Overhaul!...at least for farm animals
-    * Pigs can now only be bred with golden carrots
-    * Chickens no longer give live birth
-    * Chickens and pigs must be able to eat grass to drop their goods
-    * Feeding a chicken or pig their food, will decrease the wait time before they try to eat grass again
-    * Clean this up Klei, its a mess, make it sound more exciting
+- Chicken Overhaul
+    - More "chickens" have been added, and spawn only at their corresponding home
+    - Chickens no longer give live birth, but its still good to feed them
+    - Pay attention not only to the plumage and species of "chicken" but also **their behaviour**, this will affect their drops
+    - There are 4 different behaviours right now, each give different loot, so pay attention to your birds and see which ones would be worth taking back to your base.
+    - Chickens raised by the player will inherit no special personality types
+- Pig Overhaul
+    - Pigs can now only be bred with golden carrots or golden apples, but its still a good idea to feed them
+    - Pigs can now eat almost everything, just like real life!
 
 
 #### Credits
@@ -64,17 +67,20 @@ The update no one asked for!
 
 #### TO BE IMPLMENETED
 - Chickens no longer spawn normally, aka, no spawning randomly on grass
-- There are 4 different behaviour types
-    - MAKE SURE the rascal runs fast, and the curious wanders far from its home
-- Make a way for the farmer to sell and "breed" different cultivars, EX. giving an egg and a special item (not obol) will give a small egg with lore "Curious" 
-- Home-builders make nests ONCE, the type is then removed and replaced with mama type
-    - Check to see if a nest can be made (on looong timer, maybe similar to WT summon?), then make the nest, remove the tag
-- Home-builders have no home spot, they will roam far, and once they turn into a mama, summon three baby chicks, two of the chicks can grow up, one is age-locked
-- Anti-slaughter design
-    - If a chicken is on a hopper, AND if there is more than x chickens too close, it dies (One of your chickens was squished too tighly, and died)
-    - Or something like that
-    - Maybe all of them get poison? And if piosoned with a tag, they only drop rotten eggs, and trash feathers
-- Farmer Hat, made with wheat and helps with chickens!...somehow
+    - There are 4 different behaviour types
+        - MAKE SURE the rascal runs fast, and the curious wanders far from its home
+    - Make a way for the farmer to sell and "breed" different cultivars, EX. giving an egg and a special item (not obol) will give a small egg with lore "Curious" 
+    - Home-builders make nests ONCE, the type is then removed and replaced with mama type
+        - Check to see if a nest can be made (on looong timer, maybe similar to WT summon?), then make the nest, remove the tag
+    - Home-builders have no home spot, they will roam far, and once they turn into a mama, summon three baby chicks, two of the chicks can grow up, one is age-locked
+    - Anti-slaughter design
+        - If a chicken is on a hopper, AND if there is more than x chickens too close, it dies (One of your chickens was squished too tighly, and died)
+        - Or something like that
+        - Maybe all of them get poison? And if piosoned with a tag, they only drop rotten eggs, and trash feathers
+- Pigs
+    - Pig nests, pigs still spawn naturally?
+    - Pigs don't live in open fields
+- Farmer Hat, made with wheat and helps with animals!...somehow
 
 
 ### Aspects
