@@ -2,7 +2,7 @@
 execute \
     unless score @s matcha.pig_gifting_cooldown = @s matcha.pig_gifting_cooldown \
     store result score @s matcha.pig_gifting_cooldown \
-    run random value 300..600
+    run random value 3..6
 
 # decrement scoreboard timer 
 scoreboard players remove @s matcha.pig_gifting_cooldown 1
@@ -26,4 +26,4 @@ rotate @s ~ 90
 # reset timer
 execute \
     store result score @s matcha.pig_gifting_cooldown \
-    run random value 300..600
+    run random value 3..6
