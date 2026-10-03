@@ -1,0 +1,25 @@
+{
+    "parent": "matcha:tutorial/preserve_food",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "adv.kleispack.pig_scavenge.desc",
+            "color": "gray"
+        },
+        "icon": {
+            "components": {
+                "minecraft:item_model": "matcha:braised_brown_mushroom"
+            },
+            "count": 1,
+            "id": "minecraft:poisonous_potato"
+        },
+        "title": {
+            "translate": "adv.kleispack.pig_scavenge"
+        },
+        "hidden": false
+    }
+}
