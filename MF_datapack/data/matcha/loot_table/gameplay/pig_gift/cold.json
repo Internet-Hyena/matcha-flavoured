@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:brown_mushroom",
+                    "weight": 128
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_nugget",
+                    "weight": 1
+                }
+            ],
+            "rolls": 1
+        }
+    ],
+    "random_sequence": "minecraft:entities/pig"
+}
