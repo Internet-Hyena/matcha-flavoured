@@ -132,6 +132,13 @@ The update no one asked for!
 - Restore their memory, of what they used to be (Echoes: Restore an Echo Shard's memory)
 - Child of Moros: Smith Full Adamant Set 
 - Harbinger of Fate: Smith Adamant Elytra 
+- Rancher??: Make a Straw Hat
+- [Golden Carrot] Porcine Propagator: Breed a pair of pigs with a Golden Carrot
+- [Potato/Pig in a Crate] Truffle Hunter: When fed to a full belly, some animals will gift you something in return. Just make sure they have a suitable habitat to dig, peck, or eat from.
+- [Straw] Roosters : Birds stay near their Roosts in the wild. A newly-hatched Chick always stays close to its birth place
+- [Egg] Birdwatcher: Collect an Egg from every Bird species
+- [???] GMOs: Obtain a specific Bird breed
+- [???] Muddy Buddy???: When happy, pigs will dig for roots and mushrooms twice as often.
 
 # Stretch / Back-burner
 
