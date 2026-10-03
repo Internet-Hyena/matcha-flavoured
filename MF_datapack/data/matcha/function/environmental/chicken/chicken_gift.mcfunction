@@ -9,7 +9,7 @@ scoreboard players remove @s matcha.chicken_gifting_cooldown 1
 
 # abort if timer is not negative or not standing on grass
 execute unless score @s matcha.chicken_gifting_cooldown matches ..0 run return fail
-execute unless block ~ ~-1 ~ #matcha:chicken_peckable run return fail
+execute unless block ~ ~-1 ~ #matcha:animal_affects/animal_diggable run return fail
 
 # stop, look down, give gift, and play a sound
 
