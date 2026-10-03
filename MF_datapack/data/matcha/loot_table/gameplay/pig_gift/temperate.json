@@ -6,7 +6,17 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:brown_mushroom",
-                    "weight": 128
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "matcha:food/matcha/baked_apple",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "matcha:food/matcha/baked_pumpkin",
+                    "weight": 1
                 }
             ],
             "rolls": 1

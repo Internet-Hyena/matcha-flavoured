@@ -5,12 +5,17 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:short_dry_grass",
-                    "weight": 128
+                    "name": "minecraft:brown_mushroom",
+                    "weight": 1
                 },
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:beetroot_seeds",
+                    "type": "minecraft:loot_table",
+                    "value": "matcha:food/matcha/grilled_melon",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "matcha:food/matcha/grilled_tomatoes",
                     "weight": 1
                 }
             ],
