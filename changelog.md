@@ -36,9 +36,11 @@ I'll try and keep this brief, if you want an in-depth look at this stuff, check 
 - All of the translation volunteers
 - Thank you so much everyone!
 #### Assets
-- ToastNeko: Copper Knife, XXX
+- ToastNeko: Copper Knife, Wither Tabula Base,
 - TheGenderGoblin: 3D Fish models
 - LambS0up: Withered Heart (Heatbreaker) Asset
+- Bobot-Dev: All the 3D food models
+- IrrelevantGaymer: Leatherback Sea turtle
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
