@@ -6,6 +6,7 @@
         "minecraft:coarse_dirt",
         "minecraft:farmland",
         "minecraft:muddy_mangrove_roots",
-        "minecraft:rooted_dirt"
+        "minecraft:rooted_dirt",
+        "minecraft:mud"
     ]
 }

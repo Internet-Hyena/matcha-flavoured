@@ -128,6 +128,19 @@
                                     }
                                 }
                             }
+                        },
+                        {
+                            "type": "minecraft:loot_table",
+                            "value": "matcha:gameplay/pig_gift/muddy",
+                            "condition": {
+                                "type": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "minecraft:components": {
+                                        "minecraft:pig/variant": "matcha:muddy_temperate"
+                                    }
+                                }
+                            }
                         }
                     ]
                 }

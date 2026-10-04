@@ -153,8 +153,10 @@ The update no one asked for!
 - [Potato/Pig in a Crate] Truffle Hunter: When fed to a full belly, some animals will gift you something in return. Just make sure they have a suitable habitat to dig, peck, or eat from.
 - [Straw] Roosters : Birds stay near their Roosts in the wild. A newly-hatched Chick always stays close to its birth place
 - [Egg] Birdwatcher: Collect an Egg from every Bird species
-- [???] GMOs: Obtain a specific Bird breed
-- [???] Muddy Buddy???: When happy, pigs will dig for roots and mushrooms twice as often.
+- [???] GMOs: Obtain a specific animal breed
+- [???] Muddy Buddy???: When happy, Pigs will dig for Roots and Mushrooms much more often.
+- [Truffle] Truffle!: Have a happy Pig dig up a Truffle for you
+- [Stonecutter] XXX: Stonecutters cut more than stone, and produce Blocks more efficiently than a Crafting Bench otherwise would
 
 # Stretch / Back-burner
 

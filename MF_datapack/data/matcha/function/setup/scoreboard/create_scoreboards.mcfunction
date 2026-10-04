@@ -159,5 +159,9 @@ scoreboard objectives add matcha.pig_gifting_cooldown dummy
 # Cooldown for chickens giving gifts
 scoreboard objectives add matcha.chicken_gifting_cooldown dummy
 
-# Used to play digging/pecking animations
+# Used to play digging/play/pecking animations
 scoreboard objectives add matcha.digging_animation dummy
+scoreboard objectives add matcha.pig_play_animation dummy
+
+# Cooldown before muddy pigs become clean again
+scoreboard objectives add matcha.muddy_cooldown dummy
