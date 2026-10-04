@@ -25,6 +25,7 @@ I'll try and keep this brief, if you want an in-depth look at this stuff, check 
 - Bingbongbooper: Food Ideas (Their YT!: https://www.youtube.com/@bingbongbooper)
 - HapppySpud: Nether World Gen Gravel Remover, Post-Smithing Enchants, Random Asylum Seekers, and much more
 - Linkershim: Optimisations, Multiplayer Support and MANY other coding things
+- TankyAibem: Local Flavours, the system that lets villagers have favourite foods
 - Pepurion: Optimisations, Rose Models, and many coding things
 - Fayranchia: Bug fixes
 - ReinIsNOTaDev: Optimisations, and Github Workflow nonsese, Item Update system and more
