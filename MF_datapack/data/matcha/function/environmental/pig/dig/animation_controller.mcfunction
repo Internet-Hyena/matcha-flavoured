@@ -13,6 +13,7 @@ execute if score @s matcha.digging_animation matches 6..10 run rotate @s ~ 90
 execute if score @s matcha.digging_animation matches 4..5 run rotate @s ~ 20
 execute if score @s matcha.digging_animation matches 1..3 run rotate @s ~ -90
 execute if score @s matcha.digging_animation matches 1 run execute at @s run particle heart ~ ~1 ~ .3 .1 .3 0.1 1 normal
+execute if score @s matcha.digging_animation matches 1 run execute at @s run effect give @s minecraft:regeneration 10 2 true
 execute if score @s matcha.digging_animation matches 1 run execute at @s run playsound minecraft:entity.pig.death neutral @a ~ ~ ~ 1 1.5
 execute if score @s matcha.digging_animation matches 1 run execute at @s run execute if block ~ ~-1 ~ #matcha:animal_affects/converts_to_dirt run execute as @s run function matcha:environmental/pig/dig/dig_dirt_based_block
 execute if score @s matcha.digging_animation matches ..0 run tag @s remove playing_digging_animation

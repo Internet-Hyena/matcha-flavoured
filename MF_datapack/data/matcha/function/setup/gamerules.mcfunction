@@ -8,4 +8,3 @@ gamerule ender_pearls_vanish_on_death false
 gamerule max_block_modifications 200000
 gamerule command_block_output false
 gamerule players_sleeping_percentage 200
-gamerule max_minecart_speed 200

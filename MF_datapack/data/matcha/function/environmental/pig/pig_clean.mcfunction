@@ -9,7 +9,7 @@ execute if block ~ ~-0.8 ~ minecraft:mud run return fail
 execute if entity @s[nbt={variant:"matcha:muddy_temperate"}] run data merge entity @s {variant:"minecraft:temperate"}
 #particles to show mud coming off
 particle block{block_state:"minecraft:mud"} ~ ~ ~ .25 .5 .25 0.5 50 normal
-playsound minecraft:item.bottle.empty neutral @a
+playsound minecraft:entity.generic.splash neutral @a
 
 #Remove the muddy tag and remove them from the scoreboard, we don't need it anymore
 tag @s remove muddy

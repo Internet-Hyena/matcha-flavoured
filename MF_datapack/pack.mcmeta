@@ -3211,10 +3211,5 @@
 				"path": "advancement/recipes/.*/clock.json"
 			}
 		]
-	},
-	"features": {
-		"enabled": [
-			"minecraft:minecart_improvements"
-		]
 	}
 }
