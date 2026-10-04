@@ -1,0 +1,23 @@
+{
+	"parent": "matcha:imm_revoke",
+	"criteria": {
+		"interacted_using_glass_bottle": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:glass_bottle"
+				},
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:entity_type": "minecraft:mooshroom"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "matcha:environmental/cow/milk_mooshroom_with_bottle"
+	}
+}

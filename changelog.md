@@ -11,7 +11,8 @@ I'll try and keep this brief, if you want an in-depth look at this stuff, check 
 - Pig Overhaul
     - Pigs can now only be bred with golden carrots or golden apples, but its still a good idea to feed them
     - Pigs can now eat almost everything, just like real life!
-
+- Cows
+    - Can now be milked with glass bottles, but not after breeding (ironic ik)
 
 ### Credits
 - Internet-Hyena: Established the new pig and chicken stuff! Amazing
@@ -84,6 +85,11 @@ The update no one asked for!
 - Pigs
     - Pig nests, pigs still spawn naturally?
     - Pigs don't live in open fields
+- Animations
+    - Have the gift function add an animal to the scoreboard, the scoreboard sets up a couple things
+    - It runs a "ticking" schedule function, that every tick sets the rotation
+    - It schedules a digging particle funciton
+    - The ticking function checks all animals with a tag? Using predicates to be cheaper 
 - Farmer Hat, made with wheat and helps with animals!...somehow
 
 
