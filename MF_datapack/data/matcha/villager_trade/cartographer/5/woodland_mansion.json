@@ -1,6 +1,7 @@
 {
 	"given_item_modifier": [
 		{
+			"decoration": "minecraft:mansion",
 			"destination": "#minecraft:on_woodland_mansion_maps",
 			"type": "minecraft:exploration_map",
 			"search_radius": 100
