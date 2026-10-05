@@ -71,7 +71,6 @@ scoreboard players set 0 traversal 0
 
 # Adamant Armour
 scoreboard objectives add adamant_armour dummy
-scoreboard players set 0 adamant_armour 0
 
 # Shakudo
 scoreboard objectives add shakudo_regen dummy
