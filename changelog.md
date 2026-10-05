@@ -1,7 +1,20 @@
 
+Update Ecologic
 
-### Major Additions and Changes
-I'll try and keep this brief, if you want an in-depth look at this stuff, check the alpha changelogs
+### Major Additions and Changes (Spoiler Free)
+- Update Ecologic
+    - Farm animals have been reworked to reward players for taking care of their animals, and punish players for slaughtering animals on-sight
+    - Cows, Chickens, and Pigs have special requirements, when these are met, they will become "Happy"
+    - Happy animals drop unique loot, more of it, and perform useful tasks more often
+    - Each animal's requirements are outlined in the advancements
+    - I encourage you to pay attention to animal behaviours and environments, there are other factors not outlined in the advancements that can affect loot
+- Animal Spawning and Breeding Changes
+    - Animal spawning and breeding has been changed. If you have pre-existing chickens. They will not have as many unique behavious as newly-generated wild ones.
+    - Pigs and Cows are unaffected, pre-existing ones will be given all unique behaviours
+- Be Aware
+    - Mojang recently made a terrible decision to limit animal pathing if they are a certain distance away from the player. I can't find a way around this. This works fine for vanilla, animals in vanilla don't do much of anything, but it can be a problem for this pack. If you think something funky is going on, make sure you stay by your animals a bit to let their path-finding fix itsself.
+
+**--- SPOILERS FROM HERE ON ---**
 - Chicken Overhaul
     - More "chickens" have been added, and spawn only at their corresponding home
     - Chickens no longer give live birth, but its still good to feed them
@@ -14,7 +27,6 @@ I'll try and keep this brief, if you want an in-depth look at this stuff, check 
     - Pigs can eat certain blocks, I wonder what'll happen?
 - Cows
     - Can now be milked with glass bottles, but not after breeding (ironic ik)
-
 ### Credits
 - Internet-Hyena: Established the new pig and chicken stuff! Amazing
 - Hashiru: Optimisations
@@ -89,6 +101,7 @@ The update no one asked for!
 - Pigs
     - Pig nests, pigs still spawn naturally?
     - Pigs don't live in open fields
+    - Pigs should mirror cows, and on digging, perform a check, if they are muddy and digging, they become happy
 - Cows
     - A trough (cow feeder) which sets cow's home_pos
     - Two timers, a happy timer, happy cows wander far drop more items, when it is out, the cow home_radius will be set to 3
@@ -112,6 +125,7 @@ The update no one asked for!
     - Every cow checks the block in front of it, to see if it is a hay bale, if so, it eats it
     - After it eats, set home_radius to 50~70m 
     - Every 1.5~2.5 min a grazing check runs
+        - Grazing adds 1n to milking value
     - If the cow can graze, check Fed tag
     - If fed, and too close, run angry villager particle
     - If the cow is far from the trough, (at least ~15m?) display happy particles, and add happy tag and remove fed tag
@@ -126,6 +140,17 @@ The update no one asked for!
     - This is an int scoreboard. One bucket use, takes 4n away, one bottle use takes 1n away
     - This number can be negative!!! (Debt for taking too much milk)
     - When milking at negative value, cow is hurt, and shows angry particles
+
+    - Cows can only be bred with hay bales, straw is only used to induce grazing (will -n cooldown value much less than pigs do)
+    - Straw will tell you if a cow is happy or not, also maybe some indication of the milking value (CAN'T cant disable the default breeding particles)
+
+- General Loottables
+    - All animals drop almost nothing without being happy
+    - Cows will drop tattered leather unless happy
+        - Maybe cows drop raw flesh normally, and when happy drop Raw Prime Steak, raw prime steak can be crafted into 2-4 raw flesh "" cooked
+    - Pigs drop less meat unless muddy
+        - "" Pigs, drop Raw Prime Porkchop
+
 
 - Mooshroom
     - I dont want to do anythign with them rn. But also 
