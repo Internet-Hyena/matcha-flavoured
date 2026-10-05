@@ -15,6 +15,17 @@ execute if score @s matcha.digging_animation matches 1..3 run rotate @s ~ -90
 execute if score @s matcha.digging_animation matches 1 run execute at @s run particle heart ~ ~1 ~ .3 .1 .3 0.1 1 normal
 execute if score @s matcha.digging_animation matches 1 run execute at @s run effect give @s minecraft:regeneration 10 2 true
 execute if score @s matcha.digging_animation matches 1 run execute at @s run playsound minecraft:entity.pig.death neutral @a ~ ~ ~ 1 1.5
-execute if score @s matcha.digging_animation matches 1 run execute at @s run execute if block ~ ~-1 ~ #matcha:animal_affects/converts_to_dirt run execute as @s run function matcha:environmental/pig/dig/dig_dirt_based_block
+# --- Check at the end of the animation to make sure the pig is STILL on the block it was digging at the begning (or at least the same type)
+# Check to make sure there isn't anything edible on top of the block it is trying to dig, so that the function does not trigger twice
+execute if score @s matcha.digging_animation matches 1 run execute at @s run execute \
+    if block ~ ~-1 ~ #matcha:animal_affects/pig_diggable_dirt \
+    unless block ~ ~0.5 ~ #matcha:animal_affects/pig_edible \
+    run execute as @s run function matcha:environmental/pig/dig/dig_dirt_based_block
+
+execute if score @s matcha.digging_animation matches 1 run execute at @s run execute \
+    if block ~ ~0.5 ~ #matcha:animal_affects/pig_edible \
+    run execute as @s run function matcha:environmental/pig/dig/eat_block
+
+# Remove animation tags and scores
 execute if score @s matcha.digging_animation matches ..0 run tag @s remove playing_digging_animation
 execute if score @s matcha.digging_animation matches ..0 run scoreboard players reset @s matcha.digging_animation

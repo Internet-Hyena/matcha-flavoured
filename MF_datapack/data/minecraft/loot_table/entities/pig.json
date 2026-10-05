@@ -97,8 +97,10 @@
                                 "type": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "minecraft:components": {
-                                        "minecraft:pig/variant": "minecraft:temperate"
+                                    "minecraft:entity_tags": {
+                                        "none_of": [
+                                            "muddy"
+                                        ]
                                     }
                                 }
                             }
@@ -110,34 +112,10 @@
                                 "type": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "minecraft:components": {
-                                        "minecraft:pig/variant": "minecraft:warm"
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "minecraft:loot_table",
-                            "value": "matcha:gameplay/pig_gift/default",
-                            "condition": {
-                                "type": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "minecraft:components": {
-                                        "minecraft:pig/variant": "minecraft:cold"
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            "type": "minecraft:loot_table",
-                            "value": "matcha:gameplay/pig_gift/muddy",
-                            "condition": {
-                                "type": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "minecraft:components": {
-                                        "minecraft:pig/variant": "matcha:muddy_temperate"
+                                    "minecraft:entity_tags": {
+                                        "any_of": [
+                                            "muddy"
+                                        ]
                                     }
                                 }
                             }

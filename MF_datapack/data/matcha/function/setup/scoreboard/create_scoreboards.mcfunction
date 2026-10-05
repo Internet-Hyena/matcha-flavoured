@@ -165,3 +165,6 @@ scoreboard objectives add matcha.pig_play_animation dummy
 
 # Cooldown before muddy pigs become clean again
 scoreboard objectives add matcha.muddy_cooldown dummy
+
+# Timer before infant turns into a baby
+scoreboard objectives add matcha.infant_age dummy

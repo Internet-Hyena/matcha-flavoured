@@ -7,6 +7,8 @@ execute if block ~ ~-0.8 ~ minecraft:mud run return fail
 
 #Check the muddy variant before setting back to ORG variant
 execute if entity @s[nbt={variant:"matcha:muddy_temperate"}] run data merge entity @s {variant:"minecraft:temperate"}
+execute if entity @s[nbt={variant:"matcha:muddy_warm"}] run data merge entity @s {variant:"minecraft:warm"}
+execute if entity @s[nbt={variant:"matcha:muddy_cold"}] run data merge entity @s {variant:"minecraft:cold"}
 #particles to show mud coming off
 particle block{block_state:"minecraft:mud"} ~ ~ ~ .25 .5 .25 0.5 50 normal
 playsound minecraft:entity.generic.splash neutral @a

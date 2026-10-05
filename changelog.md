@@ -11,6 +11,7 @@ I'll try and keep this brief, if you want an in-depth look at this stuff, check 
 - Pig Overhaul
     - Pigs can now only be bred with golden carrots or golden apples, but its still a good idea to feed them
     - Pigs can now eat almost everything, just like real life!
+    - Pigs can eat certain blocks, I wonder what'll happen?
 - Cows
     - Can now be milked with glass bottles, but not after breeding (ironic ik)
 
@@ -88,11 +89,49 @@ The update no one asked for!
 - Pigs
     - Pig nests, pigs still spawn naturally?
     - Pigs don't live in open fields
-- Animations
-    - Have the gift function add an animal to the scoreboard, the scoreboard sets up a couple things
-    - It runs a "ticking" schedule function, that every tick sets the rotation
-    - It schedules a digging particle funciton
-    - The ticking function checks all animals with a tag? Using predicates to be cheaper 
+- Cows
+    - A trough (cow feeder) which sets cow's home_pos
+    - Two timers, a happy timer, happy cows wander far drop more items, when it is out, the cow home_radius will be set to 3
+    - A check food timer? Happens not as often, and should only happen if close to home_pos. Will scan the block in front to see if there is food, if so, it will be happy again, and wander away (home_radius:~70) 
+    - Or the trough has a timer and commands cows within its radius to look for food
+    - Cows should not be able to be happy unless at least 20 blocks from the trough, so they need trough food, and they need distance from the trough food
+    - Maybe you can feed it straw to tell how happy it is? And it tells you what the cow needs to be happy
+    - Maybe there should be a cooldown on milk prod
+
+    - Restarting
+    - Cows have two tags, Fed and Happy
+    - Fed means they have fed on a trough
+    - Happy means they have the Fed tag, AND, are far away from the trough
+    - Cows have a grazing timer, this timer does graze grass, but is primarily used to check these two tags
+
+    - Recap
+    - A trough is placed, all cows within range (~70 blocks) set their home_pos to it, and when placed home_radius 3
+    - Cows go to the trough
+    - Every 30s~1 min, the trough tell all cows[tag=!fed] within ~4m to try and eat
+        - If the cows home_pos is not set, it will set it to the trough. Natural cows, unlike all other animals have no default home_pos
+    - Every cow checks the block in front of it, to see if it is a hay bale, if so, it eats it
+    - After it eats, set home_radius to 50~70m 
+    - Every 1.5~2.5 min a grazing check runs
+    - If the cow can graze, check Fed tag
+    - If fed, and too close, run angry villager particle
+    - If the cow is far from the trough, (at least ~15m?) display happy particles, and add happy tag and remove fed tag
+    - Every 20-30 min a happy check is run
+    - If happy, remove happy tag, and sets home_radius to 3, maybe display angry particle
+    - Happy cows drop more loot
+        - Cold cows get +x -cold penalty, Warm cows get +x +warm bonus
+
+    - All cows have a milking value
+    - Default is like 8, but has no max value, when happy +8
+        - Cold cows get +x +cold bonus, Warm cows get +x -warm penalty
+    - This is an int scoreboard. One bucket use, takes 4n away, one bottle use takes 1n away
+    - This number can be negative!!! (Debt for taking too much milk)
+    - When milking at negative value, cow is hurt, and shows angry particles
+
+- Mooshroom
+    - I dont want to do anythign with them rn. But also 
+    - REMOVE MILKING ABILITY makes it too easy to get food, if you want, add a cooldown
+
+
 - Farmer Hat, made with wheat and helps with animals!...somehow
 
 
