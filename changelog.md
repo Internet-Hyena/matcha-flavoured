@@ -13,6 +13,8 @@ Update Ecologic
     - Pigs and Cows are unaffected, pre-existing ones will be given all unique behaviours
 - Be Aware
     - Mojang recently made a terrible decision to limit animal pathing if they are a certain distance away from the player. I can't find a way around this. This works fine for vanilla, animals in vanilla don't do much of anything, but it can be a problem for this pack. If you think something funky is going on, make sure you stay by your animals a bit to let their path-finding fix itsself.
+    - "Persistent mobs' random walk/swim behaviors will now deactivate when players are not nearby, in the same way as non-persistent mobs."
+    - Mojang why?? LET ME CHANGE IT PLEASE (at least with mob follow distance attribute to override it?)
 
 **--- SPOILERS FROM HERE ON ---**
 - Chicken Overhaul
