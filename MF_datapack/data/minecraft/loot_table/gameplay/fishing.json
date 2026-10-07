@@ -34,7 +34,7 @@
 					"condition": {
 						"type": "minecraft:location_check",
 						"predicate": {
-							"biomes": "#minecraft:freshwater_cold"
+							"biomes": "#matcha:freshwater_cold"
 						}
 					}
 				},
@@ -46,7 +46,7 @@
 					"condition": {
 						"type": "minecraft:location_check",
 						"predicate": {
-							"biomes": "#minecraft:freshwater_cool"
+							"biomes": "#matcha:freshwater_cool"
 						}
 					}
 				},
@@ -58,7 +58,7 @@
 					"condition": {
 						"type": "minecraft:location_check",
 						"predicate": {
-							"biomes": "#minecraft:freshwater_temperate"
+							"biomes": "#matcha:freshwater_temperate"
 						}
 					}
 				},
@@ -70,7 +70,7 @@
 					"condition": {
 						"type": "minecraft:location_check",
 						"predicate": {
-							"biomes": "#minecraft:freshwater_hot_wet"
+							"biomes": "#matcha:freshwater_hot_wet"
 						}
 					}
 				},
@@ -82,7 +82,7 @@
 					"condition": {
 						"type": "minecraft:location_check",
 						"predicate": {
-							"biomes": "#minecraft:freshwater_hot_dry"
+							"biomes": "#matcha:freshwater_hot_dry"
 						}
 					}
 				},
@@ -94,7 +94,7 @@
 					"condition": {
 						"type": "minecraft:location_check",
 						"predicate": {
-							"biomes": "#minecraft:saltwater_cold"
+							"biomes": "#matcha:saltwater_cold"
 						}
 					}
 				},
@@ -106,7 +106,7 @@
 					"condition": {
 						"type": "minecraft:location_check",
 						"predicate": {
-							"biomes": "#minecraft:saltwater_cool"
+							"biomes": "#matcha:saltwater_cool"
 						}
 					}
 				},
@@ -118,7 +118,7 @@
 					"condition": {
 						"type": "minecraft:location_check",
 						"predicate": {
-							"biomes": "#minecraft:saltwater_temperate"
+							"biomes": "#matcha:saltwater_temperate"
 						}
 					}
 				},
@@ -130,7 +130,7 @@
 					"condition": {
 						"type": "minecraft:location_check",
 						"predicate": {
-							"biomes": "#minecraft:saltwater_warm"
+							"biomes": "#matcha:saltwater_warm"
 						}
 					}
 				},
@@ -142,7 +142,7 @@
 					"condition": {
 						"type": "minecraft:location_check",
 						"predicate": {
-							"biomes": "#minecraft:saltwater_hot"
+							"biomes": "#matcha:saltwater_hot"
 						}
 					}
 				},
@@ -154,7 +154,7 @@
 					"condition": {
 						"type": "minecraft:location_check",
 						"predicate": {
-							"biomes": "#minecraft:swamps"
+							"biomes": "#matcha:swamps"
 						}
 					}
 				},
@@ -217,7 +217,7 @@
 					"condition": {
 						"type": "minecraft:location_check",
 						"predicate": {
-							"biomes": "#minecraft:unused"
+							"biomes": "#matcha:unused"
 						}
 					}
 				}
