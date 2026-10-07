@@ -9,6 +9,7 @@
 					"type": "minecraft:item",
 					"name": "minecraft:bone",
 					"weight": 10,
+					"quality": -1,
 					"modifier": {
 						"type": "minecraft:set_components",
 						"components": {
@@ -22,6 +23,7 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:gunpowder",
+					"quality": 1,
 					"modifier": {
 						"type": "minecraft:set_count",
 						"count": 3

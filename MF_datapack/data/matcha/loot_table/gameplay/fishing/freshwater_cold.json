@@ -8,12 +8,14 @@
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:fish/humpback_whitefish",
-					"weight": 15
+					"weight": 15,
+					"quality": -2
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:fish/alaska_blackfish",
-					"weight": 15
+					"weight": 15,
+					"quality": -2
 				},
 				{
 					"type": "minecraft:loot_table",
@@ -23,12 +25,14 @@
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:fish/northern_pike",
-					"weight": 3
+					"weight": 3,
+					"quality": 1
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:fish/siberian_sturgeon",
-					"weight": 1
+					"weight": 1,
+					"quality": 1
 				}
 			]
 		}
