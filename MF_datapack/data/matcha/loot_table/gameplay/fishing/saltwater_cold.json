@@ -7,31 +7,31 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:fish/anchovy",
+					"value": "matcha:fish/cod",
 					"weight": 15
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:fish/shad",
+					"value": "matcha:fish/salmon",
 					"weight": 15
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:fish/flying_fish",
+					"value": "matcha:fish/herring",
 					"weight": 8
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:fish/sturgeon",
+					"value": "matcha:fish/wolffish",
 					"weight": 3
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:fish/swordfish",
+					"value": "matcha:fish/skate",
 					"weight": 1
 				}
 			]
 		}
 	],
-	"random_sequence": "minecraft:gameplay/fishing/saltwater_temperate"
+	"random_sequence": "matcha:gameplay/fishing/saltwater_cold"
 }

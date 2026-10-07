@@ -7,31 +7,31 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:fish/humpback_whitefish",
+					"value": "matcha:fish/anchovy",
 					"weight": 15
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:fish/alaska_blackfish",
+					"value": "matcha:fish/shad",
 					"weight": 15
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:fish/spoonhead_sculpin",
+					"value": "matcha:fish/flying_fish",
 					"weight": 8
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:fish/northern_pike",
+					"value": "matcha:fish/sturgeon",
 					"weight": 3
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:fish/siberian_sturgeon",
+					"value": "matcha:fish/swordfish",
 					"weight": 1
 				}
 			]
 		}
 	],
-	"random_sequence": "minecraft:gameplay/fishing/freshwater_cold"
+	"random_sequence": "matcha:gameplay/fishing/saltwater_temperate"
 }

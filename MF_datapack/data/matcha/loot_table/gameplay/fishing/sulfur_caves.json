@@ -30,5 +30,5 @@
 			]
 		}
 	],
-	"random_sequence": "minecraft:gameplay/fishing/freshwater_temperate"
+	"random_sequence": "matcha:gameplay/fishing/freshwater_temperate"
 }

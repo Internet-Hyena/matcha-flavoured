@@ -7,31 +7,31 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:fish/cod",
+					"value": "matcha:fish/mediterranean_killifish",
 					"weight": 15
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:fish/salmon",
+					"value": "matcha:fish/freshwater_pufferfish",
 					"weight": 15
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:fish/black_seabass",
+					"value": "matcha:fish/lamprey",
 					"weight": 8
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:fish/monkfish",
+					"value": "matcha:fish/tunisian_barb",
 					"weight": 3
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:fish/opah",
+					"value": "matcha:fish/european_eel",
 					"weight": 1
 				}
 			]
 		}
 	],
-	"random_sequence": "minecraft:gameplay/fishing/saltwater_cool"
+	"random_sequence": "matcha:gameplay/fishing/freshwater_hot_dry"
 }

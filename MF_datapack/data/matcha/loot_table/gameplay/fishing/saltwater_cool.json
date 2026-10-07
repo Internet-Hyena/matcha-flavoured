@@ -7,31 +7,31 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:fish/striped_perch",
+					"value": "matcha:fish/cod",
 					"weight": 15
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:fish/crappie",
+					"value": "matcha:fish/salmon",
 					"weight": 15
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:fish/walleye",
+					"value": "matcha:fish/black_seabass",
 					"weight": 8
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:fish/gar",
+					"value": "matcha:fish/monkfish",
 					"weight": 3
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:fish/muskellunge",
+					"value": "matcha:fish/opah",
 					"weight": 1
 				}
 			]
 		}
 	],
-	"random_sequence": "minecraft:gameplay/fishing/freshwater_cool"
+	"random_sequence": "matcha:gameplay/fishing/saltwater_cool"
 }

@@ -28,7 +28,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/freshwater_cold",
+					"value": "matcha:gameplay/fishing/freshwater_cold",
 					"weight": 85,
 					"quality": -1,
 					"condition": {
@@ -40,7 +40,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/freshwater_cool",
+					"value": "matcha:gameplay/fishing/freshwater_cool",
 					"weight": 85,
 					"quality": -1,
 					"condition": {
@@ -52,7 +52,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/freshwater_temperate",
+					"value": "matcha:gameplay/fishing/freshwater_temperate",
 					"weight": 85,
 					"quality": -1,
 					"condition": {
@@ -64,7 +64,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/freshwater_hot_wet",
+					"value": "matcha:gameplay/fishing/freshwater_hot_wet",
 					"weight": 85,
 					"quality": -1,
 					"condition": {
@@ -76,7 +76,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/freshwater_hot_dry",
+					"value": "matcha:gameplay/fishing/freshwater_hot_dry",
 					"weight": 85,
 					"quality": -1,
 					"condition": {
@@ -88,7 +88,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/saltwater_cold",
+					"value": "matcha:gameplay/fishing/saltwater_cold",
 					"weight": 85,
 					"quality": -1,
 					"condition": {
@@ -100,7 +100,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/saltwater_cool",
+					"value": "matcha:gameplay/fishing/saltwater_cool",
 					"weight": 85,
 					"quality": -1,
 					"condition": {
@@ -112,7 +112,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/saltwater_temperate",
+					"value": "matcha:gameplay/fishing/saltwater_temperate",
 					"weight": 85,
 					"quality": -1,
 					"condition": {
@@ -124,7 +124,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/saltwater_warm",
+					"value": "matcha:gameplay/fishing/saltwater_warm",
 					"weight": 85,
 					"quality": -1,
 					"condition": {
@@ -136,7 +136,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/saltwater_hot",
+					"value": "matcha:gameplay/fishing/saltwater_hot",
 					"weight": 85,
 					"quality": -1,
 					"condition": {
@@ -148,7 +148,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/swamps",
+					"value": "matcha:gameplay/fishing/swamps",
 					"weight": 85,
 					"quality": -1,
 					"condition": {
@@ -160,7 +160,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/deep_dark",
+					"value": "matcha:gameplay/fishing/deep_dark",
 					"weight": 85,
 					"quality": -1,
 					"condition": {
@@ -172,7 +172,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/sulfur_caves",
+					"value": "matcha:gameplay/fishing/sulfur_caves",
 					"weight": 85,
 					"quality": -1,
 					"condition": {
@@ -184,7 +184,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/freshwater_temperate",
+					"value": "matcha:gameplay/fishing/freshwater_temperate",
 					"weight": 85,
 					"quality": -1,
 					"condition": {
@@ -199,7 +199,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/pale_garden",
+					"value": "matcha:gameplay/fishing/pale_garden",
 					"weight": 85,
 					"quality": -1,
 					"condition": {

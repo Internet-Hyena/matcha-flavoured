@@ -7,21 +7,21 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:fish/pale_fish",
+					"value": "matcha:fish/echo_fish",
 					"weight": 7
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:pale_hanging_moss",
+					"name": "minecraft:sculk_vein",
 					"weight": 20
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:resin_clump",
-					"weight": 12
+					"name": "minecraft:echo_shard",
+					"weight": 1
 				}
 			]
 		}
 	],
-	"random_sequence": "minecraft:gameplay/fishing/freshwater_temperate"
+	"random_sequence": "matcha:gameplay/fishing/freshwater_temperate"
 }

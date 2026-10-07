@@ -12,26 +12,26 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:fish/rainbow_wrasse",
+					"value": "matcha:fish/pufferfish",
 					"weight": 15
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:fish/gurnard",
+					"value": "matcha:fish/mahi_mahi",
 					"weight": 8
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:fish/flounder",
+					"value": "matcha:fish/painted_moray",
 					"weight": 3
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:fish/swordfish",
+					"value": "matcha:fish/oarfish",
 					"weight": 1
 				}
 			]
 		}
 	],
-	"random_sequence": "minecraft:gameplay/fishing/saltwater_warm"
+	"random_sequence": "matcha:gameplay/fishing/saltwater_hot"
 }

@@ -33,5 +33,5 @@
 			]
 		}
 	],
-	"random_sequence": "minecraft:gameplay/fishing/freshwater_hot_wet"
+	"random_sequence": "matcha:gameplay/fishing/freshwater_hot_wet"
 }
