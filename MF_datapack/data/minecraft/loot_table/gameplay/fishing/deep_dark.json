@@ -7,7 +7,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/fish/echo_fish",
+					"value": "matcha:fish/echo_fish",
 					"weight": 7
 				},
 				{

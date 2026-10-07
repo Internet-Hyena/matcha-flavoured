@@ -7,27 +7,27 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/fish/guppy",
+					"value": "matcha:fish/guppy",
 					"weight": 15
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/fish/bujurqui",
+					"value": "matcha:fish/bujurqui",
 					"weight": 15
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/fish/piranha",
+					"value": "matcha:fish/piranha",
 					"weight": 8
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/fish/armoured_catfish",
+					"value": "matcha:fish/armoured_catfish",
 					"weight": 3
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/fish/arapaima",
+					"value": "matcha:fish/arapaima",
 					"weight": 1
 				}
 			]

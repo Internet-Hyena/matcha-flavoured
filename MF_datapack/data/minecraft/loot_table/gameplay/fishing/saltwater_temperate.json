@@ -7,27 +7,27 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/fish/anchovy",
+					"value": "matcha:fish/anchovy",
 					"weight": 15
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/fish/shad",
+					"value": "matcha:fish/shad",
 					"weight": 15
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/fish/flying_fish",
+					"value": "matcha:fish/flying_fish",
 					"weight": 8
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/fish/sturgeon",
+					"value": "matcha:fish/sturgeon",
 					"weight": 3
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/fish/swordfish",
+					"value": "matcha:fish/swordfish",
 					"weight": 1
 				}
 			]

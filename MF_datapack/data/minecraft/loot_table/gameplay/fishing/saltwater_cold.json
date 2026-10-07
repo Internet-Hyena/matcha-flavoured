@@ -7,27 +7,27 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/fish/cod",
+					"value": "matcha:fish/cod",
 					"weight": 15
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/fish/salmon",
+					"value": "matcha:fish/salmon",
 					"weight": 15
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/fish/herring",
+					"value": "matcha:fish/herring",
 					"weight": 8
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/fish/wolffish",
+					"value": "matcha:fish/wolffish",
 					"weight": 3
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/fish/skate",
+					"value": "matcha:fish/skate",
 					"weight": 1
 				}
 			]

@@ -7,27 +7,27 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/fish/tropical_fish",
+					"value": "matcha:fish/tropical_fish",
 					"weight": 15
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/fish/rainbow_wrasse",
+					"value": "matcha:fish/rainbow_wrasse",
 					"weight": 15
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/fish/gurnard",
+					"value": "matcha:fish/gurnard",
 					"weight": 8
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/fish/flounder",
+					"value": "matcha:fish/flounder",
 					"weight": 3
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/fish/swordfish",
+					"value": "matcha:fish/swordfish",
 					"weight": 1
 				}
 			]
