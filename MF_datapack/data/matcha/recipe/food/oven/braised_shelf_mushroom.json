@@ -1,33 +1,32 @@
 {
-	"type": "minecraft:campfire_cooking",
+	"type": "minecraft:smelting",
 	"category": "food",
-	"cookingtime": 300,
+	"cookingtime": 100,
 	"experience": 0.35,
-	"ingredient": "minecraft:zombified_piglin_spawn_egg",
+	"ingredient": "minecraft:shelf_mushroom",
 	"result": {
 		"id": "minecraft:poisonous_potato",
 		"components": {
-			"minecraft:item_model": "matcha:green_curry",
+			"minecraft:item_model": "matcha:braised_shelf_mushroom",
 			"minecraft:item_name": {
-				"translate": "item.kleispack.green_curry"
+				"translate": "item.kleispack.braised_shelf_mushroom"
 			},
 			"minecraft:lore": [
 				{
-					"text": "\uE030\uE030\uE030\uE030\uE030\uE030\uE030\uE030\uE030\uE030",
+					"text": "\uE030",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"translate": "effect.kleispack.speed_2",
-					"with":["30:00"],
-					"color": "#37cafb",
+					"translate": "effect.kleispack.jump_boost_2",
+					"with": ["0:30"],
+					"color": "#ece85f",
 					"italic": false
 				}
 			],
 			"!minecraft:food": {},
 			"minecraft:consumable": {
-				"consume_seconds": 3.0,
-				"animation": "drink",
+				"consume_seconds": 0.8,
 				"has_consume_particles": true,
 				"on_consume_effects": [
 					{
@@ -36,23 +35,20 @@
 							{
 								"id": "minecraft:regeneration",
 								"amplifier": 2,
-								"duration": 240,
+								"duration": 24,
 								"show_particles": false,
 								"show_icon": false
 							},
 							{
-								"id": "minecraft:speed",
+								"id": "minecraft:jump_boost",
 								"amplifier": 1,
-								"duration": 36000,
+								"duration": 600,
 								"show_particles": false,
-								"show_icon": true
+								"show_icon": false
 							}
 						]
 					}
 				]
-			},
-			"minecraft:use_remainder": {
-				"id": "minecraft:bowl"
 			}
 		}
 	}
