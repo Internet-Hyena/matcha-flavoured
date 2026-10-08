@@ -8,7 +8,8 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:bone",
-					"weight": 10,
+					"weight": 90,
+					"quality": -2,
 					"modifier": {
 						"type": "minecraft:set_components",
 						"components": {
@@ -22,6 +23,8 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:gunpowder",
+					"weight": 10,
+					"quality": 2,
 					"modifier": {
 						"type": "minecraft:set_count",
 						"count": 3
@@ -30,5 +33,5 @@
 			]
 		}
 	],
-	"random_sequence": "minecraft:gameplay/fishing/freshwater_temperate"
+	"random_sequence": "matcha:gameplay/fishing/freshwater_temperate"
 }

@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/fish/tropical_fish"
+					"value": "matcha:fish/tropical_fish"
 				}
 			]
 		}

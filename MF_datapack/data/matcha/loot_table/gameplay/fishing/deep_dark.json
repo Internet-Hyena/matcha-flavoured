@@ -7,21 +7,23 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing/fish/echo_fish",
-					"weight": 7
+					"value": "matcha:fish/echo_fish",
+					"weight": 25,
+					"quality": -2
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:sculk_vein",
-					"weight": 20
+					"weight": 70
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:echo_shard",
-					"weight": 1
+					"weight": 5,
+					"quality": 2
 				}
 			]
 		}
 	],
-	"random_sequence": "minecraft:gameplay/fishing/freshwater_temperate"
+	"random_sequence": "matcha:gameplay/fishing/freshwater_temperate"
 }

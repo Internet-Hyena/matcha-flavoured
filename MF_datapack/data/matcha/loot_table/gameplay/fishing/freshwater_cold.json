@@ -1,0 +1,42 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:fish/humpback_whitefish",
+					"weight": 35,
+					"quality": -4
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:fish/alaska_blackfish",
+					"weight": 35,
+					"quality": -4
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:fish/spoonhead_sculpin",
+					"weight": 20,
+					"quality": 6
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:fish/northern_pike",
+					"weight": 7,
+					"quality": 1
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:fish/siberian_sturgeon",
+					"weight": 3,
+					"quality": 1
+				}
+			]
+		}
+	],
+	"random_sequence": "matcha:gameplay/fishing/freshwater_cold"
+}

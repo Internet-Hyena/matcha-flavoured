@@ -1,0 +1,42 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:fish/striped_perch",
+					"weight": 35,
+					"quality": -4
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:fish/crappie",
+					"weight": 35,
+					"quality": -4
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:fish/walleye",
+					"weight": 20,
+					"quality": 6
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:fish/gar",
+					"weight": 7,
+					"quality": 1
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:fish/muskellunge",
+					"weight": 3,
+					"quality": 1
+				}
+			]
+		}
+	],
+	"random_sequence": "matcha:gameplay/fishing/freshwater_cool"
+}
