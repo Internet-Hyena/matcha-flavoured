@@ -9,30 +9,31 @@
 					"type": "minecraft:loot_table",
 					"value": "matcha:fish/guppy",
 					"weight": 35,
-					"quality": -2
+					"quality": -4
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:fish/bujurqui",
 					"weight": 35,
-					"quality": -2
+					"quality": -4
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:fish/lamprey",
-					"weight": 20
+					"weight": 20,
+					"quality": 6
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:fish/flounder",
 					"weight": 7,
-					"quality": 2
+					"quality": 1
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:fish/arapaima",
 					"weight": 3,
-					"quality": 2
+					"quality": 1
 				}
 			]
 		}

@@ -8,7 +8,8 @@
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:fish/echo_fish",
-					"weight": 25
+					"weight": 25,
+					"quality": -2
 				},
 				{
 					"type": "minecraft:item",
@@ -18,7 +19,8 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:echo_shard",
-					"weight": 5
+					"weight": 5,
+					"quality": 2
 				}
 			]
 		}
