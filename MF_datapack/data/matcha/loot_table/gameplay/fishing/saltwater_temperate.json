@@ -8,31 +8,31 @@
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:fish/anchovy",
-					"weight": 15,
+					"weight": 35,
 					"quality": -2
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:fish/shad",
-					"weight": 15,
+					"weight": 35,
 					"quality": -2
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:fish/flying_fish",
-					"weight": 8
+					"weight": 20
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:fish/sturgeon",
-					"weight": 3,
-					"quality": 1
+					"weight": 7,
+					"quality": 2
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:fish/swordfish",
-					"weight": 1,
-					"quality": 1
+					"weight": 3,
+					"quality": 2
 				}
 			]
 		}

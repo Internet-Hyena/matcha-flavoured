@@ -8,31 +8,31 @@
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:fish/cod",
-					"weight": 15,
+					"weight": 35,
 					"quality": -2
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:fish/salmon",
-					"weight": 15,
+					"weight": 35,
 					"quality": -2
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:fish/herring",
-					"weight": 8
+					"weight": 20
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:fish/wolffish",
-					"weight": 3,
-					"quality": 1
+					"weight": 7,
+					"quality": 2
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:fish/skate",
-					"weight": 1,
-					"quality": 1
+					"weight": 3,
+					"quality": 2
 				}
 			]
 		}

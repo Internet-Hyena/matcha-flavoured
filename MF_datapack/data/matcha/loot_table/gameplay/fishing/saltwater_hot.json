@@ -8,31 +8,31 @@
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:fish/tropical_fish",
-					"weight": 15,
+					"weight": 35,
 					"quality": -2
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:fish/pufferfish",
-					"weight": 15,
+					"weight": 35,
 					"quality": -2
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:fish/mahi_mahi",
-					"weight": 8
+					"weight": 20
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:fish/painted_moray",
-					"weight": 3,
-					"quality": 1
+					"weight": 7,
+					"quality": 2
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:fish/oarfish",
-					"weight": 1,
-					"quality": 1
+					"weight": 3,
+					"quality": 2
 				}
 			]
 		}

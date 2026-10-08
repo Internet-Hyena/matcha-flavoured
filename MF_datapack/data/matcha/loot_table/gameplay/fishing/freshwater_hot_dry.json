@@ -8,31 +8,31 @@
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:fish/mediterranean_killifish",
-					"weight": 15,
+					"weight": 35,
 					"quality": -2
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:fish/freshwater_pufferfish",
-					"weight": 15,
+					"weight": 35,
 					"quality": -2
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:fish/lamprey",
-					"weight": 8
+					"weight": 20
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:fish/tunisian_barb",
-					"weight": 3,
-					"quality": 1
+					"weight": 7,
+					"quality": 2
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:fish/european_eel",
-					"weight": 1,
-					"quality": 1
+					"weight": 3,
+					"quality": 2
 				}
 			]
 		}

@@ -16,7 +16,9 @@
       "\n",
       {
         "translate": "adv.kleispack.anglers_almanac.chance",
-        "with": ["71.4%"],
+        "with": [
+          "70%"
+        ],
         "color": "gray",
         "italic": false
       }
@@ -30,15 +32,15 @@
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
         "player": {
-		  "type": "minecraft:entity_properties",
-		  "entity": "this",
-		  "predicate": {
-			"minecraft:type_specific/player": {
-			  "advancements": {
-				"matcha:anglers_almanac/root": true
-			  }
-			}
-		  }
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "matcha:anglers_almanac/root": true
+              }
+            }
+          }
         },
         "item": {
           "items": "minecraft:pale_hanging_moss"
