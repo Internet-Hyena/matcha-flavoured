@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:goat_horn",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:item_model": "matcha:hepatizon_ocarina",
+              "minecraft:item_name": {
+                "translate": "item.kleispack.hepatizon_ocarina",
+                "color": "#ac7b5c"
+              },
+              "minecraft:instrument": {
+                "description": {
+                  "translate": "desc.kleispack.horse_song"
+                },
+                "sound_event": {
+                  "sound_id": "matcha:ocarina.summon_horse",
+                  "range": 30
+                },
+                "use_duration": 6,
+                "range": 30
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

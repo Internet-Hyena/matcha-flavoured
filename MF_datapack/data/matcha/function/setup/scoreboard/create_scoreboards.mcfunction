@@ -168,6 +168,18 @@ scoreboard objectives add matcha.muddy_cooldown dummy
 # Timer before infant turns into a baby
 scoreboard objectives add matcha.infant_age dummy
 
+stopwatch create matcha:wooden_ocarina
+stopwatch create matcha:copper_ocarina
+stopwatch create matcha:iron_ocarina
+stopwatch create matcha:diamond_ocarina
+stopwatch create matcha:hepatizon_ocarina
+stopwatch create matcha:electrum_ocarina
+stopwatch create matcha:adamant_ocarina
+stopwatch create matcha:shakudo_ocarina
+stopwatch create matcha:horse_song
+
 # UUID of my most recently ridden horse
-stopwatch create matcha:horse_whistle
-scoreboard objectives add matcha.horse_uuid dummy
+scoreboard objectives add matcha.registered_steed_uuid1 dummy
+scoreboard objectives add matcha.registered_steed_uuid2 dummy
+scoreboard objectives add matcha.registered_steed_uuid3 dummy
+scoreboard objectives add matcha.registered_steed_uuid4 dummy
