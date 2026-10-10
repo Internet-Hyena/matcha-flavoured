@@ -1,0 +1,33 @@
+{
+    "parent": "matcha:imm_revoke",
+    "criteria": {
+        "mount_saddled_entity": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:entity_type": "#minecraft:can_equip_saddle",
+                        "minecraft:equipment": {
+                            "saddle": {
+                                "count": {
+                                    "min": 1
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "mount_saddled_entity"
+        ]
+    ],
+    "rewards": {
+        "recipes": [],
+        "function": "matcha:mechanics/ocarina/horse/mount_saddled_entity"
+    }
+}

@@ -19,6 +19,6 @@
 	],
 	"rewards": {
 		"recipes": [],
-		"function": "matcha:mechanics/mob_behaviours/horse/horse_whistle"
+		"function": "matcha:mechanics/ocarina/hepatizon_ocarina"
 	}
 }

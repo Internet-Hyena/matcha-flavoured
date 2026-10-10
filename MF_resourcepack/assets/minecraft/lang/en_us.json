@@ -1199,5 +1199,17 @@
   "adv.kleispack.adventure.trade_with_cartographer.desc": "Buy a map from an Archaeologist",
   "adv.kleispack.with_songs.obtain_tanakh.desc": "Desecrate an Abbey",
   "filled_map.house_of_wisdom": "Archive Map",
-  "item.kleispack.hepatizon_ocarina": "Hepatizon Ocarina"
+  "item.kleispack.wooden_ocarina": "Wooden Ocarina",
+  "item.kleispack.copper_ocarina": "Copper Ocarina",
+  "item.kleispack.iron_ocarina": "Iron Ocarina",
+  "item.kleispack.diamond_ocarina": "Diamond Ocarina",
+  "item.kleispack.hepatizon_ocarina": "Hepatizon Ocarina",
+  "item.kleispack.electrum_ocarina": "Electrum Ocarina",
+  "item.kleispack.adamant_ocarina": "Adamant Ocarina",
+  "item.kleispack.shakudo_ocarina": "Shakudo Ocarina",
+  "desc.kleispack.horse_song": "🐎 Steedsong",
+  "log.kleispack.used_ocarina": "Blew into the %s...",
+  "log.kleispack.used_horse_song": "Blew into the Hepatizon Ocarina...",
+  "log.kleispack.horse_song_success": "%s heard your call and came running!",
+  "log.kleispack.horse_song_fail": "But nopony came..."
 }
