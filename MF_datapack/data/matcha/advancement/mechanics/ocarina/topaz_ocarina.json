@@ -6,7 +6,7 @@
       "conditions": {
         "item": {
           "components": {
-            "minecraft:item_model": "matcha:hepatizon_ocarina"
+            "minecraft:item_model": "matcha:topaz_ocarina"
           }
         }
       }
@@ -19,6 +19,6 @@
   ],
   "rewards": {
     "recipes": [],
-    "function": "matcha:mechanics/ocarina/hepatizon_ocarina"
+    "function": "matcha:mechanics/ocarina/topaz_ocarina"
   }
 }
