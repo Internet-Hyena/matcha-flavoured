@@ -1209,6 +1209,7 @@
   "item.kleispack.shakudo_ocarina": "Shakudo Ocarina",
   "desc.kleispack.horse_song": "🐎 Steedsong",
   "log.kleispack.used_ocarina": "Blew into the %s...",
+  "log.kleispack.ocarina_fail": "Nothing seemed to happen...",
   "log.kleispack.used_horse_song": "Blew into the Hepatizon Ocarina...",
   "log.kleispack.horse_song_success": "%s heard your call and came running!",
   "log.kleispack.horse_song_fail": "But nopony came..."
