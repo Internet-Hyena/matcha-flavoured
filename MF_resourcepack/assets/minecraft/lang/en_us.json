@@ -1198,5 +1198,6 @@
   "adv.kleispack.adventure.trade_with_cartographer": "Forgotten Rumours",
   "adv.kleispack.adventure.trade_with_cartographer.desc": "Buy a map from an Archaeologist",
   "adv.kleispack.with_songs.obtain_tanakh.desc": "Desecrate an Abbey",
-  "filled_map.house_of_wisdom": "Archive Map"
+  "filled_map.house_of_wisdom": "Archive Map",
+  "item.kleispack.hepatizon_ocarina": "Hepatizon Ocarina"
 }
