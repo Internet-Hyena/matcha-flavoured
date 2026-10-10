@@ -192,5 +192,15 @@
 			}
 		],
 		"subtitle": "subtitles.kleispack.bobwhite"
+	},
+	"ocarina.summon_horse": {
+		"sounds": [
+			{
+				"name": "matcha:custom/ocarina/summon_horse",
+				"volume": 1.0,
+				"stream": true
+			}
+		],
+		"subtitle": "subtitles.kleispack.ocarina"
 	}
 }

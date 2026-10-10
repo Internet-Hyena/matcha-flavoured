@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "hopper",
+    "category": "redstone",
+    "key": {
+        "X": "minecraft:phantom_membrane",
+        "#": "minecraft:leather"
+    },
+    "pattern": [
+        "#",
+        "X"
+    ],
+    "result": {
+        "id": "minecraft:goat_horn",
+        "count": 1,
+        "components": {
+            "minecraft:item_model": "matcha:hepatizon_ocarina",
+            "minecraft:item_name": {
+                "translate": "item.kleispack.hepatizon_ocarina",
+                "color": "white"
+            },
+            "minecraft:instrument": {
+                "description": "Steedsong",
+                "sound_event": {
+                    "sound_id": "matcha:ocarina.summon_horse",
+                    "range": 30
+                },
+                "use_duration": 6,
+                "range": 30
+            }
+        }
+    }
+}

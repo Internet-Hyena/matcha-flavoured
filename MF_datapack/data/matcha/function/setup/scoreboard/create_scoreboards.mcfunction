@@ -167,3 +167,7 @@ scoreboard objectives add matcha.muddy_cooldown dummy
 
 # Timer before infant turns into a baby
 scoreboard objectives add matcha.infant_age dummy
+
+# UUID of my most recently ridden horse
+stopwatch create matcha:horse_whistle
+scoreboard objectives add matcha.horse_uuid dummy
