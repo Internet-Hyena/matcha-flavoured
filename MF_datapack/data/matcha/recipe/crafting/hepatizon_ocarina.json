@@ -22,7 +22,7 @@
             "minecraft:instrument": {
                 "description": "Steedsong",
                 "sound_event": {
-                    "sound_id": "matcha:ocarina.summon_horse",
+                    "sound_id": "matcha:ocarina.horse_song",
                     "range": 30
                 },
                 "use_duration": 6,

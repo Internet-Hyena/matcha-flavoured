@@ -193,10 +193,10 @@
 		],
 		"subtitle": "subtitles.kleispack.bobwhite"
 	},
-	"ocarina.summon_horse": {
+	"ocarina.horse_song": {
 		"sounds": [
 			{
-				"name": "matcha:custom/ocarina/summon_horse",
+				"name": "matcha:custom/ocarina/horse_song",
 				"volume": 1.0,
 				"stream": true
 			}
