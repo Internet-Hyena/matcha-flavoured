@@ -1208,9 +1208,12 @@
   "item.kleispack.adamant_ocarina": "Adamant Ocarina",
   "item.kleispack.shakudo_ocarina": "Shakudo Ocarina",
   "desc.kleispack.horse_song": "🐎 Steedsong",
+  "desc.kleispack.warp_song": "🛏 Homeward",
   "log.kleispack.used_ocarina": "Blew into the %s...",
   "log.kleispack.ocarina_fail": "Nothing seemed to happen...",
   "log.kleispack.used_horse_song": "Blew into the Hepatizon Ocarina...",
   "log.kleispack.horse_song_success": "%s heard your call and came running!",
-  "log.kleispack.horse_song_fail": "But nopony came..."
+  "log.kleispack.horse_song_fail": "But nopony came...",
+  "log.kleispack.warp_song_success": "The wind carried you safely home!",
+  "log.kleispack.warp_song_fail": "The wind swirled aimlessly..."
 }

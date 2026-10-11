@@ -19,3 +19,6 @@ title @s actionbar ""
 # display "n/n players sleeping" text in action bar
 # 2 tick delay to ensure it runs after calculate_sleep_rate
 schedule function matcha:mechanics/sleeping/notify_sleeping_players 2t
+
+# set up a marker so we can warp back here
+function matcha:mechanics/ocarina/warp/set_spawn_marker

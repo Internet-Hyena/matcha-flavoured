@@ -183,3 +183,9 @@ scoreboard objectives add matcha.registered_steed_uuid1 dummy
 scoreboard objectives add matcha.registered_steed_uuid2 dummy
 scoreboard objectives add matcha.registered_steed_uuid3 dummy
 scoreboard objectives add matcha.registered_steed_uuid4 dummy
+
+# UUID of my spawnpoint marker
+scoreboard objectives add matcha.spawn_marker_uuid1 dummy
+scoreboard objectives add matcha.spawn_marker_uuid2 dummy
+scoreboard objectives add matcha.spawn_marker_uuid3 dummy
+scoreboard objectives add matcha.spawn_marker_uuid4 dummy

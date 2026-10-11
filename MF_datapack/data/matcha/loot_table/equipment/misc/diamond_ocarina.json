@@ -17,7 +17,7 @@
               },
               "minecraft:instrument": {
                 "description": {
-                  "translate": "desc.kleispack.horse_song"
+                  "translate": "desc.kleispack.warp_song"
                 },
                 "sound_event": {
                   "sound_id": "matcha:ocarina.summon_horse",
