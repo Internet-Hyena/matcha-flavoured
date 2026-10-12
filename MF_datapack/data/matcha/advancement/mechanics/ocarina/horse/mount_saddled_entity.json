@@ -9,10 +9,10 @@
                     "entity": "this",
                     "predicate": {
                         "minecraft:entity_type": "#minecraft:can_equip_saddle",
-                        "minecraft:equipment": {
-                            "saddle": {
-                                "count": {
-                                    "min": 1
+                        "minecraft:nbt": {
+                            "equipment": {
+                                "saddle": {
+                                    "id": "minecraft:saddle"
                                 }
                             }
                         }
