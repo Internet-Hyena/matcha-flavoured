@@ -202,5 +202,15 @@
 			}
 		],
 		"subtitle": "subtitles.kleispack.ocarina"
+	},
+	"ocarina.warp_song": {
+		"sounds": [
+			{
+				"name": "matcha:custom/ocarina/warp_song",
+				"volume": 1.0,
+				"stream": true
+			}
+		],
+		"subtitle": "subtitles.kleispack.ocarina"
 	}
 }

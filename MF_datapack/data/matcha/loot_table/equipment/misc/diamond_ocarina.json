@@ -13,14 +13,14 @@
               "minecraft:item_model": "matcha:diamond_ocarina",
               "minecraft:item_name": {
                 "translate": "item.kleispack.diamond_ocarina",
-                "color": "#ac7b5c"
+                "color": "aqua"
               },
               "minecraft:instrument": {
                 "description": {
                   "translate": "desc.kleispack.warp_song"
                 },
                 "sound_event": {
-                  "sound_id": "matcha:ocarina.horse_song",
+                  "sound_id": "matcha:ocarina.warp_song",
                   "range": 30
                 },
                 "use_duration": 6,

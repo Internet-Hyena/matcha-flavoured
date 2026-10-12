@@ -13,8 +13,8 @@ execute at @s as @e[tag=matcha.registered_steed] \
     if score @s matcha.registered_steed_uuid4 = @p matcha.registered_steed_uuid4 \
     run tag @s add matcha.steed_to_summon
 
-# debug 
+#debug 
 tellraw @a {"text": "[debug] ", "extra": ["Attempting to summon steed ", {"selector": "@e[tag=matcha.steed_to_summon]"}, " to ", {"selector": "@s"}, "..."]}
 
 # wait 5s then teleport the tagged horse
-schedule function matcha:mechanics/ocarina/horse/teleport_horse 5s replace
+schedule function matcha:mechanics/ocarina/horse/teleport_horse 4s replace
